@@ -1,0 +1,41 @@
+:root {
+    --backgroundColour: #333436;
+    --fgMain: #86fffe;
+    --logoWhite: #FFF;
+    --logoBlue: #1ca6de;
+    --accentPurple: #6e71db;
+    --fontSize: 10vw;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-size: var(--fontSize);
+    color: var(--fgMain);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--backgroundColour);
+}
+
+h1 {
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.logo {
+    color: var(--logoWhite);
+}
+
+.logo > span {
+    color: var(--logoBlue);
+}
+
+.accent {
+    color: var(--accentPurple);
+}
